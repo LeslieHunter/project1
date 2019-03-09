@@ -34,11 +34,62 @@ header{
     /*resize and shape*/
     width: 80px;
     height: 80px;
-    
     border-radius: 50%
 }
 
 .aboutus span{
     width: 200px;
     display: inline-block;
+}
+
+/*team*/
+.team img{
+    width: 250px;
+    height: 250px;
+    /*shape*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.getinvoled{
+    background-color: #5cb85c;
+    text-align: center
+}
+
+.getinvoled i{
+    width:50px;
+    height:50px;
+    font-size: 40px;
+}
+
+.getinvoled span{
+     width: 200px;
+    display: inline-block;
+}
+
+.options{
+    background-color: #fff;
+}
+
+.options{
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc
+}
+
+.getinvoled h2{
+    color: #fff
+}
+
+.getinvoled{
+    padding: 30px;
+}
+
+.contacts .btn{
+    border-radius:0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color:#fff;
 }
